@@ -1,0 +1,158 @@
+/*This file is the style CSS file for the web.*/
+
+/*Map info windows and legends */
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+
+}
+
+/* Website header, including logo */
+.header {
+  text-align: center;
+  padding: 1px;
+  background-color: darkgreen;
+  background-image: url("clumberpark2.jpg");
+  background-repeat: no-repeat;
+  color: white;
+
+}
+
+
+/* Set the font size for the heading */
+.header h1 {
+  font-size: 40px;
+  text-shadow: 2px 2px 8px darkgreen;
+}
+
+/* Add a navigation bar to the page */
+.navbar {
+  overflow: hidden;
+  background-color: #6a5acd;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  left: 20px;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change the colour of the selected tab when hovering over it */
+.navbar a:hover {
+  background-color: #ccebff;
+  color: black;
+}
+
+/* Set the colour of the current (active) tab */
+.navbar a.active {
+  background-color: #cc0000;
+  color: white;
+}
+
+/*Set the texts and headings. */
+
+#hh2 {
+	position:relative;
+	left:0px;
+	text-shadow: 2px 2px 5px lightblue;
+}
+
+#pic1 {
+	position:absolute;
+	float:right;
+	top:165px;
+	left:1222px
+}
+
+#pic2 {
+	position:absolute;
+	float:right;
+	top:165px;
+	left:1560px
+}
+
+#pic3 {
+	position:absolute;
+	float:right;
+	top:503px;
+	left:1222px
+}
+
+#pic4 {
+	position:absolute;
+	float:right;
+	top:503px;
+	left:1560px
+}
+
+
+#text1 {
+	float: left;
+	width: 407px;
+	/*background-color:#6a5acd;*/
+	color: white;
+	text-align: left;
+	
+}
+
+#text2 {
+	float: left;
+	width: 1200px;
+	height:300px;
+	/*background-color:#6a5acd;*/
+	/*color: white;*/
+	text-align: left;
+	position :relative;
+	left:0px;
+	top:0px
+	
+}
+
+#text3 {
+	float:center;
+	width:600px;
+	height:400px;
+	text-align: center;
+	position:absolute;
+	top:200px;
+	left:655px;
+	color:white
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  /*background-image: url("jlogo.png");*/
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #818aff;
+  flex-wrap: wrap;
+}
